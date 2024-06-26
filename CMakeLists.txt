@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(OpenCVLibTorchTest)
+project(MNIST-LibTorch-Classification)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -13,6 +13,10 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # Set LibTorch directory
 set(CMAKE_PREFIX_PATH "C:/Program Files/libtorch")
 find_package(Torch REQUIRED)
+
+# Include Directories
+include_directories(${TORCH_INCLUDE_DIRS})
+include_directories("include")
 
 # Add the executable
 add_executable(${PROJECT_NAME} main.cpp)
