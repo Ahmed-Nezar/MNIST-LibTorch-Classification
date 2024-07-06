@@ -22,4 +22,5 @@ Train Accuracy: 0.965583 Valid Accuracy: 0.9561
 Epoch: 10 | Train Loss: 1.49304 Valid Loss: 1.50389
 Train Accuracy: 0.966267 Valid Accuracy: 0.9582
 ```
-  
+## Author:
+Ahmed Nezar
